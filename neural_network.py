@@ -12,11 +12,11 @@ class NeuralNetwork:
         self.biases = [np.random.randn(x) for x in layer_sizes[1:]]
         
     
-    def relu(self, x):
-        return np.maximum(0, x)
+    def sigmoid(x):
+        return 1 / (1 + np.exp(-x))
     
-    def relu_derivative(self, x):
-        return np.where(x <= 0, 0, 1)
+    def sigmoid_derivative(self, x):
+        return self.sigmoid(x)*(1-self.sigmoid(x))
     
     def forward_prop(self, input_vec):
         activations = [np.reshape(input_vec, (len(input_vec), 1))] # reshaping input to column vector
@@ -24,7 +24,7 @@ class NeuralNetwork:
         for b, w in zip(self.biases, self.weights_list):
             z = np.dot(w, activations[-1]) + b
             zs.append(z)
-            activation = self.relu(z)
+            activation = self.sigmoid(z)
             activations.append(activation)
         return activations, zs
     
