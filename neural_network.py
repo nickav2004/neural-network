@@ -32,8 +32,6 @@ class NeuralNetwork:
         activations, zs = self.forward_prop(input_vec)
         output_vec = activations[-1]
         
-        if(len(output_vec) != len(correct_vec)):
-            raise ValueError("backprop: correct data should be same size as output")
         
         def dcost_dactivation(a, y):
             return 2 * (a-y)
