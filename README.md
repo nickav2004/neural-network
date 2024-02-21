@@ -17,3 +17,8 @@ This neural network is being developed for versatile, all-purpose use. Currently
     - Shuffle the Data
 
 - Implement a frontend to let people train the network
+
+
+## Like this project?
+
+Feel free to contribute to my work! - https://www.buymeacoffee.com/nickav
