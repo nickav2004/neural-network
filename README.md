@@ -8,4 +8,6 @@ This Neural Network is is being built for all purpose use and versitale. Right n
 
 - Finish the back propagation Method
 
+    - Implement a way to find the Gradient vector 
+
 - Implement the training method
