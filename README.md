@@ -8,7 +8,10 @@ This Neural Network is is being built for all purpose use and versitale. Right n
 
 - Finish the back propagation Method
 
-    - Implement a way to find the Gradient vector of the cost function
-    - Update the Weights 
+    - Implement a way to find the Gradient of the cost function for layer 
+    - Calculate the Gradient for each layer 
+    - Using the Gradient vector Update the Weights 
 
 - Implement the training method
+    - Implement the epoches 
+    - Shuffle the Data
