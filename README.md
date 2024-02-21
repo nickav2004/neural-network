@@ -15,3 +15,5 @@ This Neural Network is is being built for all purpose use and versitale. Right n
 - Implement the training method
     - Implement the epoches 
     - Shuffle the Data
+
+- Implement a frontend to let people train the network
