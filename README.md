@@ -2,7 +2,7 @@
 
 ## Simple Neural Network to recognize handwritten digits
 
-This Neural Network is is being built for all purpose use and versitale. Right now it is being built to recognize 28x28 pixel images of digits.
+This neural network is being developed for versatile, all-purpose use. Currently, it is designed to recognize 28x28 pixel images of digits.
 
 ## To Do
 
